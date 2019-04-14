@@ -1,0 +1,12 @@
+.progress .cos-progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #78c6f3;
+  -webkit-transition: 0s all ease;
+  transition: 0s all ease;
+}
+
+.sending {
+  color: #2176e6;
+  font-size: 30px;
+}

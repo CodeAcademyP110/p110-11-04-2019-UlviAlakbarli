@@ -1,0 +1,36 @@
+.bar-rem{
+    
+    border-radius: 3%;
+    color: rgb(170, 12, 12);
+    margin: 15px;
+    font-size: 1.2rem;
+    opacity: 0;
+    
+
+}
+.progress{
+    cursor: pointer;
+    
+    
+    &:hover{
+        background-color: rgb(245, 110, 110);
+        .cos-progress-bar{
+            background-color: rgb(184, 14, 14);
+        }
+        
+    }
+    
+    .cos-progress-bar{
+        width:0%;
+        height: 100%;
+        background-color: rgb(120, 198, 243);
+        transition: 0s all ease;
+        
+        
+        
+    }
+}
+.sending{
+    color: rgb(33, 118, 230);
+    font-size: 30px;
+}

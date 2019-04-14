@@ -1,0 +1,31 @@
+.bar-rem {
+  border-radius: 3%;
+  color: #aa0c0c;
+  margin: 15px;
+  font-size: 1.2rem;
+  opacity: 0;
+}
+
+.progress {
+  cursor: pointer;
+}
+.progress:hover {
+  background-color: #f56e6e;
+}
+.progress:hover .cos-progress-bar {
+  background-color: #b80e0e;
+}
+.progress .cos-progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #78c6f3;
+  -webkit-transition: 0s all ease;
+  transition: 0s all ease;
+}
+
+.sending {
+  color: #2176e6;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
